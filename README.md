@@ -29,14 +29,14 @@
 Node 패키지를 49개 카테고리로 정리해둔 목록입니다. 상단 Contents에서 관심이 가는 카테고리를
 두세 개 골라 훑어봅니다.
 
-| | | |
-|---|---|---|
-| Command-line apps | Text | Date |
-| Command-line utilities | Image | Math |
-| Humanize | Parsing | Number |
-| Natural language processing | Automation | Hardware |
-| Filesystem | Compression | Streams |
-| **Mad science** | **Weird** | Miscellaneous |
+|                             |             |               |
+| --------------------------- | ----------- | ------------- |
+| Command-line apps           | Text        | Date          |
+| Command-line utilities      | Image       | Math          |
+| Humanize                    | Parsing     | Number        |
+| Natural language processing | Automation  | Hardware      |
+| Filesystem                  | Compression | Streams       |
+| **Mad science**             | **Weird**   | Miscellaneous |
 
 뒤의 두 개도 실제 카테고리입니다. 마땅히 고를 것이 없으면 이 둘부터 보면 됩니다.
 
@@ -60,13 +60,13 @@ npm search "cli table"
 
 한 항목당 다섯 줄이고, 각 줄의 의미는 다음과 같습니다.
 
-| 줄 | 내용 |
-|---|---|
-| 1 | 패키지 이름 |
-| 2 | 한 줄 설명 |
-| 3 | 버전, **배포 날짜**, 배포한 사람 |
-| 4 | 관리자 목록 |
-| 5 | 키워드 (항목에 따라 없을 수도 있습니다) |
+| 줄  | 내용                                    |
+| --- | --------------------------------------- |
+| 1   | 패키지 이름                             |
+| 2   | 한 줄 설명                              |
+| 3   | 버전, **배포 날짜**, 배포한 사람        |
+| 4   | 관리자 목록                             |
+| 5   | 키워드 (항목에 따라 없을 수도 있습니다) |
 
 3번 줄의 날짜를 눈여겨봅니다. 위 화면에도 2025년과 2016년이 함께 나와 있습니다.
 
@@ -159,12 +159,12 @@ qrcode.generate("https://github.com", { small: true });
 
 ## 배점 (100)
 
-| 항목 | 점수 |
-|---|---|
-| 3개 선정, 각각의 이유 | 25 |
-| 각각의 활용 아이디어 | 25 |
-| 각각의 `npm view` 출력과 그에 대한 해석 | 35 |
-| `try.js` 실행, `dependencies`에 패키지 포함 | 15 |
+| 항목                                        | 점수 |
+| ------------------------------------------- | ---- |
+| 3개 선정, 각각의 이유                       | 25   |
+| 각각의 활용 아이디어                        | 25   |
+| 각각의 `npm view` 출력과 그에 대한 해석     | 35   |
+| `try.js` 실행, `dependencies`에 패키지 포함 | 15   |
 
 6번은 채점하지 않습니다. 붙여넣은 출력이 실제 명령 결과와 다를 경우 재제출을 요구합니다.
 
