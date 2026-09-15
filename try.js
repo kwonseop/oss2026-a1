@@ -26,5 +26,10 @@
 // README 예제가 const x = require("...") 형태라면 import x from "..." 로 바꿔야 합니다.
 
 // ↓ 여기부터 작성
+import ora from "ora";
 
-console.log("아직 비어 있습니다. 위 주석을 읽고 패키지를 하나 import해서 호출해보세요.");
+const spinner = ora("작업 중 !").start();
+
+setTimeout(() => {
+  spinner.succeed("작업 완료 !");
+}, 2000);
